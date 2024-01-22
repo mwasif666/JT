@@ -1,0 +1,10 @@
+
+.liquo-gallery {
+  margin: 0;
+  padding: 0;
+}
+
+.liquo-gallery li {
+  list-style-type: none;
+  display: inline-block;
+}
