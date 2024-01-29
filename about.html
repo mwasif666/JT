@@ -344,60 +344,6 @@
       integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
       crossorigin="anonymous"
     ></script>
-
-    <!-- Nav -->
-    <script>
-      $(".js-menu").on("click", () => {
-        $(".js-menu").toggleClass("active");
-        $(".js-nav").toggleClass("open");
-        $(".js-nav__list").toggleClass("show");
-      });
-    </script>
-
-    <!-- OWL -->
-    <script>
-      $(".cardss").owlCarousel({
-        loop: true,
-        margin: 10,
-        nav: true,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true,
-        responsive: {
-          100: {
-            items: 1,
-          },
-        },
-      });
-      $(".owl-prev").html(
-        '<i class="bi bi-arrow-left-square-fill icon arrow"></i>'
-      );
-      $(".owl-next").html(
-        '<i class="bi bi-arrow-right-square-fill icon arrow2"></i>'
-      );
-    </script>
-    <script>
-      $(".cardd").owlCarousel({
-        loop: true,
-        margin: 10,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true,
-        responsive: {
-          100: {
-            items: 1,
-          },
-        },
-      });
-    </script>
-
-    <!-- Nav -->
-    <script>
-      $(".js-menu").on("click", () => {
-        $(".js-menu").toggleClass("active");
-        $(".js-nav").toggleClass("open");
-        $(".js-nav__list").toggleClass("show");
-      });
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>

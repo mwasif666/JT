@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Handlee&family=Montserrat&family=Satisfy&display=swap");
+h1 {
+  font-family: "Lumanosimo", cursive !important;
+}
+
 @media screen and (min-width: 992px) {
   .dropdown:hover .dropdown-menu {
     display: block;
